@@ -13,25 +13,27 @@ async function toggleLocales() {
 </script>
 
 <template>
-  <nav flex="~ gap-4" mt-6 justify-center text-xl>
-    <RouterLink icon-btn to="/" :title="t('button.home')">
-      <div i-carbon-campsite />
-    </RouterLink>
+  <div absolute bottom-5 left-0 right-0 text-center fw300 op50>
+    <nav flex="~ gap-4" mt-6 justify-center text-xl>
+      <RouterLink icon-btn to="/" :title="t('button.home')">
+        <div i-carbon-campsite />
+      </RouterLink>
 
-    <button icon-btn :title="t('button.toggle_dark')" @click="toggleDark()">
-      <div i="carbon-sun dark:carbon-moon" />
-    </button>
+      <button icon-btn :title="t('button.toggle_dark')" @click="toggleDark()">
+        <div i="carbon-sun dark:carbon-moon" />
+      </button>
 
-    <a icon-btn :title="t('button.toggle_langs')" @click="toggleLocales()">
-      <div i-carbon-language />
-    </a>
+      <a icon-btn :title="t('button.toggle_langs')" @click="toggleLocales()">
+        <div i-carbon-language />
+      </a>
 
-    <RouterLink icon-btn to="/about" :title="t('button.about')">
-      <div i-carbon-dicom-overlay />
-    </RouterLink>
+      <RouterLink icon-btn to="/about" :title="t('button.about')">
+        <div i-carbon-dicom-overlay />
+      </RouterLink>
 
-    <a icon-btn rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
-      <div i-carbon-logo-github />
-    </a>
-  </nav>
+      <a icon-btn rel="noreferrer" href="https://github.com/Zerokei/Homepage" target="_blank" title="GitHub">
+        <div i-carbon-logo-github />
+      </a>
+    </nav>
+  </div>
 </template>
