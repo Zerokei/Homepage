@@ -13,8 +13,8 @@ async function toggleLocales() {
 </script>
 
 <template>
-  <div absolute bottom-5 left-0 right-0 text-center fw300 op50>
-    <nav flex="~ gap-4" mt-6 justify-center text-xl>
+  <div bottom-5 left-0 right-0 text-center fw300>
+    <nav flex="~ gap-4" mt-6 justify-center text-xl op60>
       <RouterLink icon-btn to="/" :title="t('button.home')">
         <div i-carbon-campsite />
       </RouterLink>
@@ -27,13 +27,15 @@ async function toggleLocales() {
         <div i-carbon-language />
       </a>
 
-      <RouterLink icon-btn to="/about" :title="t('button.about')">
-        <div i-carbon-dicom-overlay />
-      </RouterLink>
-
       <a icon-btn rel="noreferrer" href="https://github.com/Zerokei/Homepage" target="_blank" title="GitHub">
         <div i-carbon-logo-github />
       </a>
     </nav>
+
+    <div py-2 />
+    <div text-sm op30 font="mono">
+      <p> Copyright © 2023 @Chritch </p>
+      <a href="https://beian.miit.gov.cn/#/Integrated/index"> 浙ICP备2021029841号-1 </a>
+    </div>
   </div>
 </template>

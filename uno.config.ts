@@ -23,10 +23,11 @@ export default defineConfig({
     }),
     presetTypography(),
     presetWebFonts({
+      provider: 'google',
       fonts: {
-        sans: 'DM Sans',
+        sans: ['Segoe UI', 'DM Sans'],
         serif: 'DM Serif Display',
-        mono: 'DM Mono',
+        mono: 'Jetbrains Mono',
       },
     }),
   ],
