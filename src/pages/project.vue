@@ -86,7 +86,7 @@ const achievedProjects: { [key: string]: ProjectInfos } = {
 </script>
 
 <template>
-  <div m10>
+  <div class="content-box">
     <div prose-sm m-auto text-left prose>
       <div class="text-center">
         <div i-carbon-cics-program class="m-auto text-4xl -mb-6" />
@@ -149,5 +149,27 @@ const achievedProjects: { [key: string]: ProjectInfos } = {
 .project-name {
   font-family: 'Segoe UI';
   font-weight: 500;
+}
+
+.content-box {
+  /* 默认的页边距值 */
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+@media screen and (max-width: 600px) {
+  .content-box {
+    /* 较小页面宽度时的页边距值 */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .content-box {
+    /* 较大页面宽度时的页边距值 */
+    margin-left: 25rem;
+    margin-right: 25rem;
+  }
 }
 </style>
