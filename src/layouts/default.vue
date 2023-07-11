@@ -10,3 +10,9 @@
     <TheFooter />
   </main>
 </template>
+
+<style>
+div {
+  font-family: 'lxgw-wenkai-screen-webfont';
+}
+</style>
