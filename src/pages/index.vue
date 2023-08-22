@@ -16,13 +16,13 @@ const { t } = useI18n()
 
 <template>
   <div m20>
-    <div text-8xl>
+    <div py-4 text-8xl>
       <div i-carbon-content-delivery-network inline-block />
     </div>
     <p>
       <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" />
     </p>
-    <p text-3xl opacity-75 class="title">
+    <p text-5xl opacity-75 class="title">
       {{ t('intro.desc') }}
     </p>
 
@@ -69,6 +69,8 @@ meta:
 
 <style>
 p.title {
-  font-family: 'Dancing Script'
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  color: #111111;
 }
 </style>
