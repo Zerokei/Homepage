@@ -25,7 +25,7 @@ const { t } = useI18n()
 
     <div class="content" justify-center py-20>
       <div class="left" animate-fade-in>
-        <img src="stitch.png">
+        <img src="/stitch.png">
       </div>
 
       <div class="right" m-4 animate-fade-in text-left text-xl>
