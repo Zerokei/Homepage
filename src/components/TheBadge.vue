@@ -19,6 +19,7 @@ const toolArray: { [key: string]: Elements } = {
   'Verilog': { icon: 'i-simple-icons-v', color: '#625f86' },
   'C++': { icon: 'i-simple-icons-cplusplus', color: '#00599c' },
   'Java': { icon: 'i-simple-icons-java', color: '#c01818' },
+  'Latex': { icon: 'i-simple-icons-latex', color: '#317a7c' },
 }
 // const color = toolArray[toolName].icon
 </script>

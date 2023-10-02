@@ -29,11 +29,16 @@ const ingProjects: { [key: string]: ProjectInfos } = {
     description: ' Ubuntu and docker startup settings.',
     tools: ['Bash', 'Docker'],
   },
-  'AskGPT': {
-    url: 'https://github.com/Zerokei/AskGPT',
-    description: 'Use ChatGPT API with command line.',
-    tools: ['Python'],
+  'ZeroSlides': {
+    url: 'https://github.com/Zerokei/Zeroslides',
+    description: ' My slides template powered by slidev.',
+    tools: ['CSS3'],
   },
+  'texTemplate': {
+    url: 'https://github.com/Zerokei/texTemplate',
+    description: ' My latex templates.',
+    tools: ['Latex'],
+  }
 }
 
 const achievedProjects: { [key: string]: ProjectInfos } = {
@@ -47,10 +52,20 @@ const achievedProjects: { [key: string]: ProjectInfos } = {
     description: 'A tool for exploring npm modules and dependencies.',
     tools: ['React'],
   },
+  'ZigCC': {
+    url: 'https://github.com/Zerokei/ZigCC',
+    description: 'A Simplified C++ Compiler using antlr4 and llvm.',
+    tools: ['C++'],
+  },
   'NaiveEditor': {
     url: 'https://github.com/Zerokei/NaiveEditor',
     description: 'A naive text editor.',
     tools: ['Bash'],
+  },
+  'AskGPT': {
+    url: 'https://github.com/Zerokei/AskGPT',
+    description: 'Use ChatGPT API with command line.',
+    tools: ['Python'],
   },
   'Light': {
     url: 'https://github.com/Zerokei/Light',
