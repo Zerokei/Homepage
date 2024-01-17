@@ -16,38 +16,31 @@
               </div>
             </div>
           </div>
-          <div class="block-body space-y-2">
-            <div class="mb-4">
+          <div class="block-body">
+            <div class="mb-4 tracking-wide">
               Hello, I'm Chritch, a senior at Zhejiang University. I identify as a Christian and am currently exploring
               DeFi security within blockchain.
               In my free time, I enjoy watching movies, reading books, and delving into the realms of religion and
               philosophy.
             </div>
-            <div>
-              <Icon name="ph:dot-fill" class="link-icon" />
-              <span class="mr-1"> Projects: </span>
-              <a href="https://obsidian.zerokei.top">
-                <Icon name="uil:notes" class="link-icon" />Notebook
-              </a>
-              <span class="mx-1"> / </span>
-              <a href="#projects">
-                <Icon name="uil:elipsis-double-v-alt" class="link-icon" />More
-              </a>
-            </div>
-            <div>
-              <Icon name="ph:dot-fill" class="link-icon" />
-              <span class="mr-1"> Contact Me: </span>
-              <a href="mailto:chritch-7@outlook.com">
-                <Icon name="uil:envelope" class="link-icon" />Mail
-              </a>
-              <span class="mx-1"> / </span>
-              <a href="https://github.com/zerokei">
-                <Icon name="uil:github" class="link-icon" />Github
-              </a>
-              <span class="mx-1"> / </span>
-              <a href="https://web.okjike.com/u/ad2fa9a3-0588-41f8-a9d6-a5ac1e0fdc1f">
-                <Icon name="uil:lightbulb-alt" class="link-icon" />Jike
-              </a>
+            <div class="block-body-list">
+              <div class="block-body-item">
+                <Icon name="ph:dot-fill" class="link-icon" />
+                <div> Projects: </div>
+                <Iconlink text="Notebook" link="https://obsidian.zerokei.top" icon="i-uil-notes" />
+                <div> / </div>
+                <Iconlink text="More" link="#projects" icon="i-uil-elipsis-double-v-alt" />
+              </div>
+              <div class="block-body-item">
+                <Icon name="ph:dot-fill" class="link-icon" />
+                <div> Contact Me: </div>
+                <Iconlink text="Mail" link="mailto:chritch-7@outlook.com" icon="i-uil-envelope" />
+                <div> / </div>
+                <Iconlink text="Github" link="https://github.com/zerokei" icon="i-uil-github" />
+                <div> / </div>
+                <Iconlink text="Jike" link="https://web.okjike.com/u/ad2fa9a3-0588-41f8-a9d6-a5ac1e0fdc1f"
+                  icon="i-uil-lightbulb-alt" />
+              </div>
             </div>
           </div>
         </div>
@@ -58,39 +51,35 @@
         <div class="block-content">
           <div class="block-title">
             Projects
-            <div class="opacity-90 text-sm font-normal flex flex-row">
-              <div>
-                <Icon name="i-mdi-progress-wrench" class="link-icon" />
-                Active
-              </div>
-              <span class="mx-2"> / </span>
-              <div>
-                <Icon name="i-material-symbols-archive-outline-sharp" class="link-icon" />
-                Archeved
-              </div>
+            <div class="opacity-90 text-xs font-normal flex flex-row space-x-2">
+              <Icontext text="Active" icon="i-mdi-progress-wrench" />
+              <div> / </div>
+              <Icontext text="Archived" icon="i-material-symbols-archive-outline-sharp" />
             </div>
           </div>
           <div class="block-body">
-            <ProjectItem name="Notebook" link="https://obsidian.zerokei.top"
-              description="The notes I create using Obsidian and publish with Obsidian Digital Garden Plugin."
-              :active="true" :tools="['Obsidian', 'Markdown']" />
-            <ProjectItem name="ObsidianSnippets" link="https://github.com/Zerokei/ObsidianSnippets"
-              description="My Obsidian CSS Snippets." :active="true" :tools="['CSS3']" />
-            <ProjectItem name="ZeroSlides" link="https://github.com/Zerokei/ZeroSlides"
-              description="A slide template powered by slidev." :active="true" :tools="['Vue']" />
-            <ProjectItem name="texTemplate" link="https://github.com/Zerokei/texTemplate"
-              description="My Latex Templates." :active="true" :tools="['Latex']" />
-            <ProjectItem name="ZeroCPU" link="https://github.com/Zerokei/ZeroCPU"
-              description="A RISC-V architecture CPU with support for a five-stage pipeline and cache."
-              :tools="['Scala', 'Verilog']" />
-            <ProjectItem name="DepGuard" link="https://github.com/Zerokei/DepGuard"
-              description="A tool for exploring npm modules and dependencies." :tools="['React']" />
-            <ProjectItem name="Light" link="https://github.com/Zerokei/Light"
-              description="A photovoltaic hybrid energy storage simulation system." :tools="['Python']" />
+            <div class="block-body-list">
+              <ProjectItem name="Notebook" link="https://obsidian.zerokei.top"
+                description="The notes I create using Obsidian and publish with Obsidian Digital Garden Plugin."
+                :active="true" :tools="['Obsidian', 'Markdown']" />
+              <ProjectItem name="ObsidianSnippets" link="https://github.com/Zerokei/ObsidianSnippets"
+                description="My Obsidian CSS Snippets." :active="true" :tools="['CSS3']" />
+              <ProjectItem name="ZeroSlides" link="https://github.com/Zerokei/ZeroSlides"
+                description="A slide template powered by slidev." :active="true" :tools="['Vue']" />
+              <ProjectItem name="texTemplate" link="https://github.com/Zerokei/texTemplate"
+                description="My Latex Templates." :active="true" :tools="['Latex']" />
+              <ProjectItem name="ZeroCPU" link="https://github.com/Zerokei/ZeroCPU"
+                description="A RISC-V architecture CPU with support for a five-stage pipeline and cache."
+                :tools="['Scala', 'Verilog']" />
+              <ProjectItem name="DepGuard" link="https://github.com/Zerokei/DepGuard"
+                description="A tool for exploring npm modules and dependencies." :tools="['React']" />
+              <ProjectItem name="Light" link="https://github.com/Zerokei/Light"
+                description="A photovoltaic hybrid energy storage simulation system." :tools="['Python']" />
+            </div>
             <div class="mt-10 opacity-70 font-light">
-              Check out the <a class="font-medium" href="https://github.com/Zerokei">
-                <Icon name="uil:github" class="link-icon" />Github Repo
-              </a> for more details.
+              Check out the
+              <Iconlink link="https://github.com/Zerokei" icon="i-uil-github" text="Github Repo" />
+              for more details.
             </div>
           </div>
         </div>
@@ -103,17 +92,18 @@
             Recommandation
           </div>
           <div class="block-body">
-            <div>
-              <Icon name="ph:dot-fill" class="link-icon" />
-              Movies:
-              <a href="https://www.douban.com/doulist/157494227/">
-                <Icon name="uil:heart" class="link-icon" />TOP10
-              </a>
+            <div class="block-body-list">
+              <div class="block-body-item">
+                <Icon name="ph:dot-fill" class="link-icon" />
+                <div> Movies: </div>
+                <Iconlink link="https://www.douban.com/doulist/157494227/" text="TOP10" icon="i-uil-heart" />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- TODO Skills -->
   </div>
 </template>
 
@@ -130,7 +120,7 @@ a {
 }
 
 .link-icon {
-  @apply text-zinc-100 text-lg mb-1 mr-1;
+  @apply text-lg;
 }
 
 .block-wrap {
@@ -147,6 +137,14 @@ a {
 .block-body {
   @apply text-zinc-100 font-thin;
   font-family: 'Merriweather';
+}
+
+.block-body-list {
+  @apply space-y-4 md:space-y-3;
+}
+
+.block-body-item {
+  @apply flex flex-row flex-wrap items-center space-x-2
 }
 
 .block-content {

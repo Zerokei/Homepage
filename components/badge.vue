@@ -27,7 +27,7 @@ const toolArray: { [key: string]: Elements } = {
 </script>
 
 <template>
-  <div :style="{ 'background-color': toolArray[toolName].color }" class="flex flex-row inline-flex px-2 rounded-md text-sm mr-1" >
+  <span :style="{ 'background-color': toolArray[toolName].color }" class="flex flex-row inline-flex px-2 rounded-md text-xs mr-1 py-0.5" >
     <Icon :name="toolArray[toolName].icon" class="my-1 mr-1"/>
     <span
       :style="{
@@ -35,8 +35,9 @@ const toolArray: { [key: string]: Elements } = {
         'font-family': 'Verdana',
         'text-shadow': '#020202 0px 1.4px 0px',
       }"
+      class="mt-0.5"
     >
       {{ toolName }}
     </span>
-  </div>
+  </span>
 </template>
