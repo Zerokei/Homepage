@@ -17,17 +17,17 @@ const toolArray: { [key: string]: Elements } = {
   'Docker': { icon: 'i-simple-icons-docker', color: '#1396c3' },
   'Python': { icon: 'i-simple-icons-python', color: '#3776ab' },
   'Scala': { icon: 'i-simple-icons-scala', color: '#c02300' },
-  'React': { icon: 'i-simple-icons-react', color: '#4ec3e3' },
-  'Verilog': { icon: 'i-simple-icons-v', color: '#625f86' },
+  'Vue': { icon: 'i-simple-icons-vuedotjs', color: '#4a9f70'},
+  'React': { icon: 'i-teenyicons-react-outline', color: '#4ec3e3' },
+  'Verilog': { icon: 'i-file-icons-verilog', color: '#625f86' },
   'C++': { icon: 'i-simple-icons-cplusplus', color: '#00599c' },
   'Java': { icon: 'i-simple-icons-java', color: '#c01818' },
   'Latex': { icon: 'i-simple-icons-latex', color: '#317a7c' },
 }
-// const color = toolArray[toolName].icon
 </script>
 
 <template>
-  <div :style="{ 'background-color': toolArray[toolName].color }" class="flex flex-row inline-flex px-2 rounded-md" >
+  <div :style="{ 'background-color': toolArray[toolName].color }" class="flex flex-row inline-flex px-2 rounded-md text-sm mr-1" >
     <Icon :name="toolArray[toolName].icon" class="my-1 mr-1"/>
     <span
       :style="{
