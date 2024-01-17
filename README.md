@@ -6,7 +6,7 @@
 ### Built With
 
 - ![vue](https://img.shields.io/badge/Vue-20232A?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
-- ![Netlify](https://img.shields.io/badge/Netlify-20232A?style=for-the-badge&logo=netlify&logoColor=00C7B7)
+<!-- - ![Netlify](https://img.shields.io/badge/Netlify-20232A?style=for-the-badge&logo=netlify&logoColor=00C7B7) -->
 
 
 ## Usage
