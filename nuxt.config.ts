@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   ],
   googleFonts: {
     families: {
-      Merriweather: [300, 400]
+      Merriweather: [300, 400, 600]
     }
   }
 })
