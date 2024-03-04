@@ -98,6 +98,11 @@
                 <div> Movies: </div>
                 <Iconlink link="https://www.douban.com/doulist/157494227/" text="TOP10" icon="i-uil-heart" />
               </div>
+              <div class="block-body-item">
+                <Icon name="ph:dot-fill" class="link-icon" />
+                <div> Videos: </div>
+                <Iconlink link="/rec/videos" text="Detailed Information" icon="i-uil-info-circle" />
+              </div>
             </div>
           </div>
         </div>
@@ -106,52 +111,3 @@
     <!-- TODO Skills -->
   </div>
 </template>
-
-<style>
-.font-mixed {
-  font-family: 'JetBrainsMono', 'LXGWBright';
-}
-
-a {
-  @apply text-zinc-100 font-normal;
-  @apply hover:text-zinc-200 hover:font-normal;
-  @apply hover:decoration-zinc-200;
-  @apply hover:underline hover:decoration-1 hover:underline-offset-2;
-}
-
-.link-icon {
-  @apply text-lg;
-}
-
-.block-wrap {
-  @apply flex flex-col justify-center w-full h-full;
-}
-
-.block-title {
-  font-family: 'Merriweather';
-  @apply flex flex-row justify-between items-end;
-  @apply text-zinc-100 text-4xl font-semibold;
-  @apply mb-10;
-}
-
-.block-body {
-  @apply text-zinc-100 font-thin;
-  font-family: 'Merriweather';
-}
-
-.block-body-list {
-  @apply space-y-4 md:space-y-3;
-}
-
-.block-body-item {
-  @apply flex flex-row flex-wrap items-center space-x-2
-}
-
-.block-content {
-  @apply flex flex-col self-center w-10/12;
-
-  @media (min-width: 768px) {
-    width: 48rem;
-  }
-}
-</style>
