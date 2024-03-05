@@ -103,6 +103,11 @@
                 <div> Videos: </div>
                 <Iconlink link="/rec/videos" text="Detailed Information" icon="i-uil-info-circle" />
               </div>
+              <div class="block-body-item">
+                <Icon name="ph:dot-fill" class="link-icon" />
+                <div> ToolBox: </div>
+                <Iconlink link="/rec/toolbox" text="Detailed Information" icon="i-ph-toolbox-light" />
+              </div>
             </div>
           </div>
         </div>
