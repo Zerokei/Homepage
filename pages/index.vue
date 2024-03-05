@@ -108,6 +108,7 @@
                 <div> ToolBox: </div>
                 <Iconlink link="/rec/toolbox" text="Detailed Information" icon="i-ph-toolbox-light" />
               </div>
+              <!-- TODO RSS Resource -->
             </div>
           </div>
         </div>

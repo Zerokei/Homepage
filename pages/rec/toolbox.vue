@@ -5,7 +5,7 @@
   <div class="block-body">
     <div class="block-body-item" v-for="item in items">
       <Icon name="ph:dot-fill" class="link-icon" />
-      <div class="text-zinc-100 font-mixed"> 
+      <div class="text-zinc-100 py-0.5"> 
         <Iconlink :link="item.link" :text="item.name" :icon="item.icon" /> 
       </div>
     </div>
@@ -22,6 +22,11 @@ const items = [
     name: 'Excalidraw',
     link: 'https://excalidraw.com/',
     icon: 'i-simple-icons-excalidraw'
+  },
+  {
+    name: 'Overleaf',
+    link: 'https://www.overleaf.com/',
+    icon: 'i-simple-icons-overleaf'
   },
   {
     name: 'Canva',
