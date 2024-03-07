@@ -49,6 +49,13 @@
   @apply mb-10;
 }
 
+.block-subtitle {
+  font-family: 'Merriweather';
+  @apply flex flex-row justify-between items-end;
+  @apply text-zinc-100 text-2xl font-semibold;
+  @apply mb-3 mt-5;
+}
+
 .block-body {
   @apply text-zinc-100 font-thin;
   font-family: 'Merriweather';

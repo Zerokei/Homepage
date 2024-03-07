@@ -95,18 +95,15 @@
             <div class="block-body-list">
               <div class="block-body-item">
                 <Icon name="ph:dot-fill" class="link-icon" />
-                <div> Movies: </div>
-                <Iconlink link="https://www.douban.com/doulist/157494227/" text="TOP10" icon="i-uil-heart" />
+                <Iconlink link="https://www.douban.com/doulist/157494227/" text="TOP10 Movies & Teleplays" icon="i-uil-heart" />
               </div>
               <div class="block-body-item">
                 <Icon name="ph:dot-fill" class="link-icon" />
-                <div> Videos: </div>
-                <Iconlink link="/rec/videos" text="Detailed Information" icon="i-uil-info-circle" />
+                <Iconlink link="/rec/videos" text="Recommended Videos" icon="i-ic-baseline-slow-motion-video" />
               </div>
               <div class="block-body-item">
                 <Icon name="ph:dot-fill" class="link-icon" />
-                <div> ToolBox: </div>
-                <Iconlink link="/rec/toolbox" text="Detailed Information" icon="i-ph-toolbox-light" />
+                <Iconlink link="/rec/toolbox" text="My ToolBox" icon="i-ph-toolbox-light" />
               </div>
               <!-- TODO RSS Resource -->
             </div>
