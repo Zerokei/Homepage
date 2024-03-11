@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SaaS",
+    "color": "#e11316" 
+  },
+  {
+    "name": "doc",
+    "color": "#00599c"
+  },
+  {
+    "name": "lib",
+    "color": "#4b4b4b"
+  },
+  {
+    "name": "blockchain",
+    "color": "#62baf8"
+  },
+  {
+    "name": "drawing",
+    "color": "#ef616d"
+  },
+  {
+    "name": "frontend",
+    "color": "#ebb714"
+  }
+]

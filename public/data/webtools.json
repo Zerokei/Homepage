@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Excalidraw",
+    "link": "https://excalidraw.com/",
+    "icon": "i-simple-icons-excalidraw",
+    "tags": ["SaaS", "drawing"]
+  },
+  {
+    "name": "Overleaf",
+    "link": "https://www.overleaf.com/",
+    "icon": "i-simple-icons-overleaf",
+    "tags": ["SaaS"]
+  },
+  {
+    "name": "Canva",
+    "link": "https://www.canva.com/",
+    "icon": "i-simple-icons-canva",
+    "tags": ["SaaS", "drawing"]
+  },
+  {
+    "name": "Triangle Patterns Generator",
+    "link": "https://sinqi.tools/zh/triangle",
+    "icon": "i-fluent-draw-image-20-regular",
+    "tags": ["lib", "drawing"]
+  },
+  {
+    "name": "LDRS",
+    "link": "https://uiball.com/ldrs/",
+    "icon": "i-mingcute-loading-fill",
+    "description": ": Free, open-source loaders and spinners for your next project.",
+    "tags": ["lib", "frontend"]
+  },
+  {
+    "name": "Blockchain dark forest selfguard handbook",
+    "link": "https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook",
+    "icon": "i-material-symbols-docs",
+    "tags": ["doc", "blockchain"]
+  }
+]
