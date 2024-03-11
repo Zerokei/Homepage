@@ -8,8 +8,10 @@
   <div class="block-body">
     <div class="block-body-item" v-for="item in items">
       <Icon name="ph:dot-fill" class="link-icon" />
-      <div class="text-zinc-100 py-0.5"> 
+      <div class="text-zinc-100 py-0.5 flex-row space-x-1"> 
         <Iconlink :link="item.link" :text="item.name" :icon="item.icon" /> 
+        {{ item.description }}
+        <ToolTag v-for="tag in item.tags" :id="tag"/>
       </div>
     </div>
   </div>
@@ -36,22 +38,39 @@ const items = [
   {
     name: 'Excalidraw',
     link: 'https://excalidraw.com/',
-    icon: 'i-simple-icons-excalidraw'
+    icon: 'i-simple-icons-excalidraw',
+    tags: ['SaaS', 'drawing']
   },
   {
     name: 'Overleaf',
     link: 'https://www.overleaf.com/',
-    icon: 'i-simple-icons-overleaf'
+    icon: 'i-simple-icons-overleaf',
+    tags: ['SaaS']
   },
   {
     name: 'Canva',
     link: 'https://www.canva.com/',
-    icon: 'i-simple-icons-canva'
+    icon: 'i-simple-icons-canva',
+    tags: ['SaaS', 'drawing']
   },
   {
     name: 'Triangle Patterns Generator',
     link: 'https://sinqi.tools/zh/triangle',
-    icon: 'i-fluent-draw-image-20-regular'
+    icon: 'i-fluent-draw-image-20-regular',
+    tags: ['lib', 'drawing']
+  },
+  {
+    name: 'LDRS',
+    link: 'https://uiball.com/ldrs/',
+    icon: 'i-mingcute-loading-fill',
+    description: ': Free, open-source loaders and spinners for your next project.',
+    tags: ['lib', 'frontend']
+  },
+  {
+    name: 'Blockchain dark forest selfguard handbook',
+    link: 'https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook',
+    icon: 'i-material-symbols-docs',
+    tags: ['doc', 'blockchain']
   }
 ]
 
