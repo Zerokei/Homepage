@@ -4,6 +4,10 @@
     "color": "#e11316" 
   },
   {
+    "name": "PaaS",
+    "color": "#e11300" 
+  },
+  {
     "name": "doc",
     "color": "#00599c"
   },

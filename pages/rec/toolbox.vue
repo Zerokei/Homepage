@@ -3,12 +3,6 @@
     ToolBox
   </div>
   <div class="block-subtitle">
-    Web
-  </div>
-  <div class="block-body">
-    <WebtoolView/>
-  </div>
-  <div class="block-subtitle">
     MacOS
   </div>
   <div class="block-body space-x-1">
@@ -19,6 +13,12 @@
     >
       <Icon :name="item.icon" class="text-lg" :color="item.color"/>
     </a>
+  </div>
+  <div class="block-subtitle">
+    Web
+  </div>
+  <div class="block-body">
+    <WebtoolView/>
   </div>
 </template>
 
