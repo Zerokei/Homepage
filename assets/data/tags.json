@@ -26,5 +26,9 @@
   {
     "name": "workflow",
     "color": "#77d400"
+  },
+  {
+    "name": "database",
+    "color": "#2172e5"
   }
 ]

@@ -71,5 +71,11 @@
     "link": "http://kindle2flomo.90byte.com/index_en.html",
     "icon": "i-codicon-tools",
     "tags": ["SaaS", "workflow"]
+  },
+  {
+    "name": "DefiLlama",
+    "link": "https://defillama.com/",
+    "icon": "i-material-symbols-database-outline",
+    "tags": ["database", "blockchain"]
   }
 ]
