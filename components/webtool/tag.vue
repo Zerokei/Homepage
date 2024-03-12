@@ -3,7 +3,7 @@ import tags from '~/public/data/tags.json'
 const props = defineProps({
   id: String
 })
-const matchedTag = tags.find(tag => tag.name === props.id)
+const matchedTag = computed(() => tags.find(tag => tag.name === props.id))
 
 </script>
 

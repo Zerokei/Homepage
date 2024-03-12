@@ -35,5 +35,17 @@
     "link": "https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook",
     "icon": "i-material-symbols-docs",
     "tags": ["doc", "blockchain"]
+  },
+  {
+    "name": "State of JS/CSS/HTML/GraphQL/React",
+    "link": "https://stateofjs.com/en-US",
+    "icon": "i-material-symbols-docs",
+    "tags": ["doc", "frontend"]
+  },
+  {
+    "name": "Phalcon",
+    "link": "https://phalcon.blocksec.com",
+    "icon": "i-codicon-tools",
+    "tags": ["SaaS", "blockchain"]
   }
 ]
