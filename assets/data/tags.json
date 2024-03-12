@@ -22,5 +22,9 @@
   {
     "name": "frontend",
     "color": "#ebb714"
+  },
+  {
+    "name": "workflow",
+    "color": "#77d400"
   }
 ]

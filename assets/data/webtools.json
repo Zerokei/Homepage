@@ -65,5 +65,11 @@
     "link": "https://tailwindcss.com/",
     "icon": "i-material-symbols-extension-outline",
     "tags": ["lib", "frontend"]
+  },
+  {
+    "name": "Kindle2Flomo",
+    "link": "http://kindle2flomo.90byte.com/index_en.html",
+    "icon": "i-codicon-tools",
+    "tags": ["SaaS", "workflow"]
   }
 ]
