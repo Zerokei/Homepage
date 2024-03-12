@@ -3,21 +3,20 @@
     <select 
       v-model="selectedTag" 
       class="bg-amber-600 rounded-md py-1 px-1 mr-2 text-sm text-center font-mixed" 
-      @change="addTagToList"
+      @change="addTagToList(selectedTag)"
       >
       <option value="default">default</option>
       <option v-for="tag in tagList" :key="tag">{{ tag }}</option>
     </select>
-    <!-- TODO 点击上方的 Tag 则删除 Tag -->
-    <WebtoolTag v-for="tag in selectedTagsList" :id="tag"/>
+    <WebtoolTag v-for="tag in selectedTagsList" :id="tag" :on-click="() => removeTagFromList(tag)"/>
   </div>
-  <!-- TODO 点击列表里的 Tag 则增加 Tag -->
-  <div class="block-body-item" v-for="item in getWebTools">
-    <Icon name="ph:dot-fill" class="link-icon" />
+  <!-- TODO 增加滚动浏览 -->
+  <div class="block-body-item" v-for="(item, index) in getWebTools">
+    <span class="font-mixed text-sm bg-amber-600 rounded-lg px-1"> {{ index+1 }} </span>
     <div class="text-zinc-100 py-0.5 flex-row space-x-1"> 
       <Iconlink :link="item.link" :text="item.name" :icon="item.icon" /> 
       {{ item.description }}
-      <WebtoolTag v-for="tag in item.tags" :id="tag"/>
+      <WebtoolTag v-for="tag in item.tags" :id="tag" :on-click="() => addTagToList(tag)"/>
     </div>
   </div>
 </template>
@@ -32,7 +31,7 @@ const selectedTag = ref("default")
 const selectedTagsList: Ref<string[]> = ref([])
 
 const getWebTools = computed(() => {
-  if (selectedTag.value === "default") {
+  if (selectedTagsList.value.length === 0) {
     return webtools
   }
   else {
@@ -44,13 +43,17 @@ const getWebTools = computed(() => {
   }
 })
 
-function addTagToList() {
-  if (selectedTag.value === "default") {
+function addTagToList(tag: string) {
+  if (tag === "default") {
     selectedTagsList.value = []
   }
-  else if (!selectedTagsList.value.includes(selectedTag.value)) {
-    selectedTagsList.value.push(selectedTag.value)
+  else if (!selectedTagsList.value.includes(tag)) {
+    selectedTagsList.value.push(tag)
   }
+}
+
+function removeTagFromList(tag: string) {
+  selectedTagsList.value = selectedTagsList.value.filter(item => item !== tag)
 }
 
 </script>

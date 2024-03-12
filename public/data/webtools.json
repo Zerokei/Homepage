@@ -26,7 +26,7 @@
   {
     "name": "LDRS",
     "link": "https://uiball.com/ldrs/",
-    "icon": "i-mingcute-loading-fill",
+    "icon": "i-material-symbols-extension-outline",
     "description": ": Free, open-source loaders and spinners for your next project.",
     "tags": ["lib", "frontend"]
   },
