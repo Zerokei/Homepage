@@ -89,5 +89,11 @@
     "link": "https://vercel.com",
     "icon": "i-tabler-brand-vercel",
     "tags": ["PaaS", "frontend"]
+  },
+  {
+    "name": "@vueuse/motion",
+    "link": "https://motion.vueuse.org/",
+    "icon": "i-material-symbols-extension-outline",
+    "tags": ["lib", "frontend"]
   }
 ]

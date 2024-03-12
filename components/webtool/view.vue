@@ -11,9 +11,8 @@
     <button @click="clearTagsList" class="outline-dashed outline-2 outline-offset-2 outline-amber-600 rounded-sm text-sm px-3 font-mixed bg-amber-200 text-amber-600 hover:outline"> Clear </button>
     <WebtoolTag v-for="tag in selectedTagsList" :id="tag" :on-click="() => removeTagFromList(tag)"/>
   </div>
-  <!-- TODO 增加滚动的动态展示动画 -->
-  <ul v-auto-animate class="h-[300px] w-full overflow-auto space-y-1.5">
-    <li class="block-body-item" v-for="(item, index) in getWebTools">
+  <ul class="h-[300px] w-full overflow-auto space-y-1.5">
+    <li class="block-body-item" v-for="(item, index) in getWebTools" v-motion-fade-visible>
       <span class="font-mixed text-sm bg-amber-600/30 rounded-lg text-center min-w-7"> {{ index+1 }} </span>
       <div class="text-zinc-100 py-0.5 flex-row space-x-1"> 
         <Iconlink :link="item.link" :text="item.name" :icon="item.icon" /> 
