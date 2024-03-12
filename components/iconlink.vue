@@ -9,10 +9,8 @@ const props = defineProps({
 })
 </script>
 <template>
-  <span>
-    <a :href="props.link">
-      <Icon :name="props.icon" class="text-lg mb-1 mr-1" />
-      <span>{{ props.text }}</span>
-    </a>
-  </span>
+  <a class="whitespace-nowrap" :href="props.link">
+    <Icon :name="props.icon" class="text-lg mb-1 mr-1" />
+    <span>{{ props.text }}</span>
+  </a>
 </template>

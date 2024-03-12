@@ -1,24 +1,14 @@
 <template>
-  <div class="mb-2 space-x-2">
-    <!-- <select 
-      v-model="selectedTag" 
-      class="bg-amber-600/50 rounded-md py-1 px-1 mr-2 text-sm text-center font-mixed" 
-      @change="addTagToList(selectedTag)"
-      >
-      <option value="select">select</option>
-      <option v-for="tag in tagList" :key="tag">{{ tag }}</option>
-    </select> -->
-    <button @click="clearTagsList" class="outline-dashed outline-2 outline-offset-2 outline-amber-600 rounded-sm text-sm px-3 font-mixed bg-amber-200 text-amber-600 hover:outline"> Clear </button>
+  <div class="mb-2 space-x-1.5">
+    <button @click="clearTagsList" class="outline-dashed outline-2 outline-offset-2 outline-amber-600 rounded-sm text-sm px-3 mr-3 mb-3 font-mixed bg-amber-200 text-amber-600 hover:outline"> Clear </button>
     <WebtoolTag v-for="tag in selectedTagsList" :id="tag" :on-click="() => removeTagFromList(tag)"/>
   </div>
-  <ul class="h-[300px] w-full overflow-auto space-y-1.5">
-    <li class="block-body-item" v-for="(item, index) in getWebTools" v-motion-fade-visible>
+  <ul class="h-[300px] overflow-auto space-y-0.5">
+    <li class="flex flex-nowrap space-x-1.5 items-center overflow-x-scroll" v-for="(item, index) in getWebTools" v-motion-fade-visible>
       <span class="font-mixed text-sm bg-amber-600/30 rounded-lg text-center min-w-7"> {{ index+1 }} </span>
-      <div class="text-zinc-100 py-0.5 flex-row space-x-1"> 
-        <Iconlink :link="item.link" :text="item.name" :icon="item.icon" /> 
-        {{ item.description }}
-        <WebtoolTag v-for="tag in item.tags" :id="tag" :on-click="() => addTagToList(tag)"/>
-      </div>
+      <Iconlink :link="item.link" :text="item.name" :icon="item.icon" /> 
+      <div class="whitespace-nowrap"> {{ item.description }} </div>
+      <WebtoolTag v-for="tag in item.tags" :id="tag" :on-click="() => addTagToList(tag)"/>
     </li>
   </ul>
 </template>
@@ -63,11 +53,5 @@ function removeTagFromList(tag: string) {
 <style>
 ::-webkit-scrollbar {
   width: 0; /* 设置滚动条宽度为零 */
-}
-::-webkit-scrollbar-track {
-  background-color: transparent; /* 设置滚动条轨道透明 */
-}
-::-webkit-scrollbar-thumb {
-  background-color: transparent; /* 设置滚动条滑块透明 */
 }
 </style>
