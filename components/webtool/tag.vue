@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import tags from '~/public/data/tags.json'
+import tags from '~/assets/data/tags.json'
 const props = defineProps({
   id: String,
   onClick: {
@@ -16,7 +16,7 @@ const matchedTag = computed(() => tags.find(tag => tag.name === props.id))
 <template>
   <span v-if="matchedTag"
     :style="{ 'background-color': matchedTag.color }" 
-    class="inline-flex px-2 py-0.5 rounded-md text-xs mr-1" 
+    class="inline-flex px-2 py-0.5 rounded-md text-xs mr-1 hover:outline" 
     @click="onClick()"
   >
     {{ id }}

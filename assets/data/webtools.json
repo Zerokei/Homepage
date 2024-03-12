@@ -47,5 +47,23 @@
     "link": "https://phalcon.blocksec.com",
     "icon": "i-codicon-tools",
     "tags": ["SaaS", "blockchain"]
+  },
+  {
+    "name": "Icones",
+    "link": "https://icones.js.org/",
+    "icon": "i-material-symbols-extension-outline",
+    "tags": ["lib", "frontend"]
+  },
+  {
+    "name": "Nuxt3",
+    "link": "https://nuxt.com/",
+    "icon": "i-simple-icons-nuxtdotjs",
+    "tags": ["lib", "frontend"]
+  },
+  {
+    "name": "TailwindCSS",
+    "link": "https://tailwindcss.com/",
+    "icon": "i-material-symbols-extension-outline",
+    "tags": ["lib", "frontend"]
   }
 ]
