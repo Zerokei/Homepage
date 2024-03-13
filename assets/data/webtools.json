@@ -40,7 +40,7 @@
     "name": "State of JS",
     "link": "https://stateofjs.com/en-US",
     "icon": "i-material-symbols-docs",
-    "description": ": Including CSS, HTML, GraphQL, and React.",
+    "description": ": Including JS, CSS, HTML, GraphQL, and React.",
     "tags": ["doc", "frontend"]
   },
   {
@@ -102,5 +102,11 @@
     "link": "https://risingstars.js.org/",
     "icon": "i-material-symbols-docs",
     "tags": ["doc", "frontend"]
+  },
+  {
+    "name": "Freeconvert",
+    "link": "https://www.freeconvert.com/",
+    "icon": "i-codicon-tools",
+    "tags": ["SaaS"]
   }
 ]
