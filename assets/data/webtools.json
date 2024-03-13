@@ -37,9 +37,10 @@
     "tags": ["doc", "blockchain"]
   },
   {
-    "name": "State of JS/CSS/HTML/GraphQL/React",
+    "name": "State of JS",
     "link": "https://stateofjs.com/en-US",
     "icon": "i-material-symbols-docs",
+    "description": ": Including CSS, HTML, GraphQL, and React.",
     "tags": ["doc", "frontend"]
   },
   {
@@ -95,5 +96,11 @@
     "link": "https://motion.vueuse.org/",
     "icon": "i-material-symbols-extension-outline",
     "tags": ["lib", "frontend"]
+  },
+  {
+    "name": "JavaScript Rising Stars",
+    "link": "https://risingstars.js.org/",
+    "icon": "i-material-symbols-docs",
+    "tags": ["doc", "frontend"]
   }
 ]
