@@ -34,5 +34,9 @@
   {
     "name": "database",
     "color": "#2172e5"
+  },
+  {
+    "name": "research",
+    "color": "#f3aa0f"
   }
 ]

@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.css', '~/assets/css/color.css'],
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',

@@ -9,13 +9,25 @@
     "name": "Overleaf",
     "link": "https://www.overleaf.com/",
     "icon": "i-simple-icons-overleaf",
-    "tags": ["SaaS"]
+    "tags": ["SaaS", "research"]
   },
   {
     "name": "Canva",
     "link": "https://www.canva.com/",
     "icon": "i-simple-icons-canva",
     "tags": ["SaaS", "drawing"]
+  },
+  {
+    "name": "CCF Deadline",
+    "link": "https://ccfddl.github.io/",
+    "icon": "i-ph-clock-countdown",
+    "tags": ["SaaS", "research"]
+  },
+  {
+    "name": "DBLP",
+    "link": "https://dblp.org/search?q=code%20similarity",
+    "icon": "i-simple-icons-dblp",
+    "tags": ["database", "research"]
   },
   {
     "name": "Triangle Patterns Generator",

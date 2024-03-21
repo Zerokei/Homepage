@@ -45,24 +45,24 @@
 .block-title {
   font-family: 'Merriweather';
   @apply flex flex-row justify-between items-end;
-  @apply text-zinc-100 text-4xl font-semibold;
+  @apply text-primary text-4xl font-semibold;
   @apply mb-10;
 }
 
 .block-subtitle {
   font-family: 'Merriweather';
   @apply flex flex-row justify-between items-end;
-  @apply text-zinc-100 text-2xl font-semibold;
+  @apply text-primary text-2xl font-semibold;
   @apply mb-3 mt-5;
 }
 
 .block-body {
-  @apply text-zinc-100 font-thin;
+  @apply text-primary font-thin;
   font-family: 'Merriweather';
 }
 
 .block-bottom {
-  @apply text-zinc-100 py-10;
+  @apply text-primary py-10;
   font-family: 'Merriweather';
 }
 
@@ -83,8 +83,8 @@
 }
 
 a {
-  @apply text-zinc-100 font-normal;
-  @apply hover:text-zinc-200 hover:font-normal;
+  @apply text-primary font-normal;
+  @apply hover:text-primary/40 hover:font-normal;
   @apply hover:decoration-zinc-200;
   @apply hover:underline hover:decoration-1 hover:underline-offset-2;
 }

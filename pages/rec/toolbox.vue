@@ -1,31 +1,44 @@
 <template>
-  <div class="block-title">
-    ToolBox
-  </div>
-  <div class="block-subtitle">
-    MacOS
-  </div>
-  <div class="block-body space-x-1">
-    <a v-for="item in macItems" 
-      class="bg-white rounded-lg px-1 py-1" 
-      :href="item.link"
-      :title="item.name"
-    >
-      <Icon :name="item.icon" class="text-lg" :color="item.color"/>
-    </a>
-  </div>
-  <div class="block-subtitle">
-    Web
-  </div>
-  <div class="block-body">
-    <WebtoolView/>
+  <div class="flex flex-col full-height theme-solarizedWhite" ref="srollContainer">
+    <div class="h-screen">
+      <div class="block-wrap">
+        <div class="block-content">
+          <div class="block-title">
+            ToolBox
+          </div>
+          <div class="block-subtitle">
+            MacOS
+          </div>
+          <div class="block-body space-x-2">
+            <a v-for="item in macItems" 
+              class="bg-white rounded-lg px-1 py-1 outline outline-primary/60" 
+              :href="item.link"
+              :title="item.name"
+            >
+              <Icon :name="item.icon" class="text-lg" :color="item.color"/>
+            </a>
+          </div>
+          <div class="block-subtitle">
+            Web
+          </div>
+          <div class="block-body">
+            <WebtoolView/>
+          </div>
+          <div class="block-bottom">
+            <Iconlink
+            link="/#recommandation"
+            text="Back"
+            icon="i-uil-arrow-down-left"
+            class="text-primary"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-definePageMeta({
-  layout: 'sub-rec-page'
-})
 
 const macItems = [
   {
