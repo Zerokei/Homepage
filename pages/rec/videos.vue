@@ -5,7 +5,7 @@
   <div class="block-body">
     <div class="block-body-item" v-for="item in items">
       <Icon name="ph:dot-fill" class="link-icon" />
-      <div class="text-zinc-100 font-mixed"> 
+      <div class="text-primary font-mixed"> 
         {{ item.title }}
       </div>
       <Iconlink :link="item.link" :text="item.author" :icon="item.icon" /> 

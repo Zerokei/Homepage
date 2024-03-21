@@ -1,6 +1,6 @@
 <template>
   <div class="bg-secondary">
-    <div class="flex flex-col full-height h-screen">
+    <div class="flex flex-col full-height h-screen text-white">
       <div class="block-wrap">
         <div class="block-content">
           <div class="block-title">
@@ -29,7 +29,7 @@
             link="/#recommandation"
             text="Back"
             icon="i-uil-arrow-down-left"
-            class="text-primary"
+            class="text-inherit"
             />
           </div>
         </div>

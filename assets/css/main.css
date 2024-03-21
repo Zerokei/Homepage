@@ -83,8 +83,7 @@
 }
 
 a {
-  @apply text-primary font-normal;
-  @apply hover:text-primary/40 hover:font-normal;
-  @apply hover:decoration-zinc-200;
+  @apply text-inherit font-normal;
+  @apply hover:opacity-50 hover:font-normal;
   @apply hover:underline hover:decoration-1 hover:underline-offset-2;
 }

@@ -4,17 +4,19 @@
 
 @layer base {
   :root {
-    --color-primary: 211 54 130;
-    --color-secondary: 133 153 0;
-    --color-background: 253 246 227;
+    --color-text-primary: 131 148 150;
+    --color-text-secondary: 147 161 161;
+    --color-bg-primary: 238 232 213;
+    --color-bg-secondary: 253 246 227;
     --color-foreground: 101 123 131;
     --color-separator: 88 110 117;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --color-primary: 38 139 210;
-      --color-secondary: 203 75 22;
-      --color-background: 0 43 54;
+      --color-text-primary: 88 110 117;
+      --color-text-secondary: 101 123 131;
+      --color-bg-primary: 0 43 54;
+      --color-bg-secondary: 7 54 66;
       --color-foreground: 238 232 213;
       --color-separator: 131 148 150;
     }

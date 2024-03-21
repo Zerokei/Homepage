@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col full-height" ref="scrollContainer">
-    <div class="bg-amber-500 h-screen" >
+    <div class="bg-primary h-screen" >
       <div class="block-wrap">
         <div class="block-content">
           <slot/>

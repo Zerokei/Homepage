@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <div id="main" class="bg-secondary h-screen">
+    <div id="main" class="bg-primary h-screen">
       <div class="block-wrap">
         <div class="block-content">
           <div class="flex flex-row mb-5">
@@ -8,10 +8,10 @@
               <img src="~/assets/img/zerokei-logo.png" class="shadow-lg rounded-full" />
             </div>
             <div class="flex flex-col font-mixed justify-between">
-              <div class="pt-2 text-xl text-zinc-300 font-normal">
+              <div class="pt-2 text-xl text-primary font-normal">
                 Zerokei
               </div>
-              <div class="pb-1 md:text-3xl text-2xl text-zinc-100 font-medium">
+              <div class="pb-1 md:text-3xl text-2xl text-primary font-medium">
                 Chritch/克瑞奇
               </div>
             </div>
@@ -47,10 +47,10 @@
         </div>
       </div>
     </div>
-    <div id="projects" class="bg-sky-500 py-14">
+    <div id="projects" class="bg-secondary py-14">
       <div class="block-wrap">
-        <div class="block-content">
-          <div class="block-title">
+        <div class=" block-content">
+          <div class="text-secondary block-title">
             Projects
             <div class="opacity-90 text-xs font-normal flex flex-row space-x-2">
               <Icontext text="Active" icon="i-mdi-progress-wrench" />
@@ -58,7 +58,7 @@
               <Icontext text="Archived" icon="i-material-symbols-archive-outline-sharp" />
             </div>
           </div>
-          <div class="block-body">
+          <div class="text-secondary block-body">
             <div class="block-body-list">
               <ProjectItem name="Notebook" link="https://obsidian.zerokei.top"
                 description="The notes I create using Obsidian and publish with Obsidian Digital Garden Plugin."
@@ -86,7 +86,7 @@
         </div>
       </div>
     </div>
-    <div id="recommandation" class="bg-amber-500 py-14">
+    <div id="recommandation" class="bg-primary py-14">
       <div class="block-wrap">
         <div class="block-content">
           <div class="block-title">
