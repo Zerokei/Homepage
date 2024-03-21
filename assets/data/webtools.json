@@ -30,6 +30,24 @@
     "tags": ["database", "research"]
   },
   {
+    "name": "SCI-Hub",
+    "link": "https://sci-hub.ee/",
+    "icon": "i-academicons-sci-hub",
+    "tags": ["database", "research"]
+  },
+  {
+    "name": "Google Scholar",
+    "link": "https://scholar.google.com/",
+    "icon": "i-simple-icons-googlescholar",
+    "tags": ["database", "research"]
+  },
+  {
+    "name": "grammarly",
+    "link": "https://www.grammarly.com/",
+    "icon": "i-simple-icons-grammarly",
+    "tags": ["SaaS", "research"]
+  },
+  {
     "name": "Triangle Patterns Generator",
     "link": "https://sinqi.tools/zh/triangle",
     "icon": "i-fluent-draw-image-20-regular",
