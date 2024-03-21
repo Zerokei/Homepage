@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col full-height theme-solarizedWhite" ref="srollContainer">
-    <div class="h-screen">
+  <div class="bg-secondary">
+    <div class="flex flex-col full-height h-screen">
       <div class="block-wrap">
         <div class="block-content">
           <div class="block-title">
@@ -11,7 +11,7 @@
           </div>
           <div class="block-body space-x-2">
             <a v-for="item in macItems" 
-              class="bg-white rounded-lg px-1 py-1 outline outline-primary/60" 
+              class="bg-secondary rounded-lg px-1 py-1 outline outline-primary/60" 
               :href="item.link"
               :title="item.name"
             >

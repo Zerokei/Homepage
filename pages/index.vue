@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <div id="main" class="bg-zinc-700 h-screen">
+    <div id="main" class="bg-secondary h-screen">
       <div class="block-wrap">
         <div class="block-content">
           <div class="flex flex-row mb-5">
@@ -16,6 +16,7 @@
               </div>
             </div>
           </div>
+          <!-- TODO 设置第二的区块全部为 secondary / 第三个区块全部为 third -->
           <div class="block-body">
             <div class="mb-4 tracking-wide">
               Hello, I'm Chritch, a senior at Zhejiang University. I identify as a Christian and am currently exploring

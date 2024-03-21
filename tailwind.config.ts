@@ -12,14 +12,14 @@ module.exports = {
     },
     extend: {
       backgroundColor: {
-        primary: "rgb(var(--color-background) / <alpha-value>)",
-        secondary: "rgb(var(--color-secondary) / <alpha-value>)",
+        primary: "rgb(var(--color-foreground) / <alpha-value>)",
+        secondary: "rgb(var(--color-background) / <alpha-value>)",
         foreground: "rgb(var(--color-foreground) / <alpha-value>)",
         separator: "rgb(var(--color-separator) / <alpha-value>)",
       },
       outlineColor: {
         primary: "rgb(var(--color-foreground) / <alpha-value>)",
-        secondary: "rgb(var(--color-secondary) / <alpha-value>)",
+        secondary: "rgb(var(--color-background) / <alpha-value>)",
       },
       textColor: {
         primary: "rgb(var(--color-foreground) / <alpha-value>)",
