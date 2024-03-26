@@ -30,6 +30,12 @@ const items = [
     link: 'https://www.youtube.com/watch?v=vrqrL0WceU8&list=PLfChJ-aSv3VD-f-sQH1p9vEPjwx8zYH6e',
     author: 'Sally Shi',
     icon: 'i-simple-icons-youtube'
+  },
+  {
+    title: '《基督与彼拉多，再思基督信仰的公共性》',
+    link: 'https://www.youtube.com/watch?v=0CBr0p17XNg&list=PL1c_LdicqKtIG92WLqTUdsH2WrUIvgv9D',
+    author: '曾劭恺',
+    icon: 'i-simple-icons-youtube'
   }
 ]
 </script>
