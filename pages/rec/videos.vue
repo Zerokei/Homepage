@@ -33,7 +33,13 @@ const items = [
   },
   {
     title: '《基督与彼拉多，再思基督信仰的公共性》',
-    link: 'https://www.youtube.com/watch?v=0CBr0p17XNg&list=PL1c_LdicqKtIG92WLqTUdsH2WrUIvgv9D',
+    link: 'https://reformedsg.org/2018%e5%b9%b4-%e7%a5%9e%e5%ad%a6%e8%af%be%e7%a8%8b/',
+    author: '曾劭恺',
+    icon: 'i-simple-icons-youtube'
+  },
+  {
+    title: '《变者，不变者：历代基督论与当代信仰生活》',
+    link: 'https://reformedsg.org/2019%e5%b9%b4-%e7%a5%9e%e5%ad%a6%e8%af%be%e7%a8%8b/',
     author: '曾劭恺',
     icon: 'i-simple-icons-youtube'
   }
