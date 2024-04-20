@@ -4,10 +4,11 @@ const props = defineProps({
   link: String,
   icon: {
     type: String,
-    default: ''
+    default: '',
   },
 })
 </script>
+
 <template>
   <a class="whitespace-nowrap" :href="props.link">
     <Icon :name="props.icon" class="text-lg mb-1 mr-1" />

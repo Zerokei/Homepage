@@ -1,14 +1,14 @@
 <template>
-  <div class="flex flex-col full-height" ref="scrollContainer">
-    <div class="bg-primary h-screen" >
+  <div class="flex flex-col full-height">
+    <div class="bg-primary h-screen">
       <div class="block-wrap">
         <div class="block-content">
-          <slot/>
+          <slot />
           <div class="block-bottom">
             <Iconlink
-            link="/#recommandation"
-            text="Back"
-            icon="i-uil-arrow-down-left"
+              link="/#recommandation"
+              text="Back"
+              icon="i-uil-arrow-down-left"
             />
           </div>
         </div>

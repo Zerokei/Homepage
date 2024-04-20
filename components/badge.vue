@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const props = defineProps({
-  id: String
+  id: String,
 })
-const toolName: string = props.id as string;
+const toolName: string = props.id as string
 
 interface Elements {
   icon: string
@@ -17,7 +17,7 @@ const toolArray: { [key: string]: Elements } = {
   'Docker': { icon: 'i-simple-icons-docker', color: '#1396c3' },
   'Python': { icon: 'i-simple-icons-python', color: '#3776ab' },
   'Scala': { icon: 'i-simple-icons-scala', color: '#c02300' },
-  'Vue': { icon: 'i-simple-icons-vuedotjs', color: '#4a9f70'},
+  'Vue': { icon: 'i-simple-icons-vuedotjs', color: '#4a9f70' },
   'React': { icon: 'i-teenyicons-react-outline', color: '#4ec3e3' },
   'Verilog': { icon: 'i-file-icons-verilog', color: '#625f86' },
   'C++': { icon: 'i-simple-icons-cplusplus', color: '#00599c' },
@@ -27,8 +27,8 @@ const toolArray: { [key: string]: Elements } = {
 </script>
 
 <template>
-  <span :style="{ 'background-color': toolArray[toolName].color }" class="flex-inline flex-row px-2 rounded-md text-xs mr-1 py-0.5" >
-    <Icon :name="toolArray[toolName].icon" class="my-1 mr-1 text-white"/>
+  <span :style="{ 'background-color': toolArray[toolName].color }" class="flex-inline flex-row px-2 rounded-md text-xs mr-1 py-0.5">
+    <Icon :name="toolArray[toolName].icon" class="my-1 mr-1 text-white" />
     <span
       :style="{
         'color': '#FFFFFF',

@@ -11,18 +11,16 @@ const props = defineProps({
 <template>
   <div>
     <!-- <Icon name="ph:dot-fill" class="link-icon" /> -->
-    <Icon name="i-mdi-progress-wrench" class="indicator" v-if="active"/>
-    <Icon name="i-material-symbols-archive-outline-sharp" class="indicator" v-else/>
+    <Icon v-if="active" name="i-mdi-progress-wrench" class="indicator" />
+    <Icon v-else name="i-material-symbols-archive-outline-sharp" class="indicator" />
     <a :href="props.link">{{ props.name }}</a>:
     <span class="mr-2"> {{ props.description }} </span>
-    <Badge v-for="tool in props.tools ?? []" class="inline" :id="tool"/>
+    <Badge v-for="tool in props.tools ?? []" :id="tool" :key="tool" class="inline" />
   </div>
 </template>
 
 <style>
-
 .indicator {
   @apply text-lg mr-1 mb-1;
 }
-
 </style>

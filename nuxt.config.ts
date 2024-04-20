@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    }
+    },
   },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css', '~/assets/css/color.css'],
@@ -11,11 +11,11 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     'nuxt-icon',
-    '@vueuse/motion/nuxt'
+    '@vueuse/motion/nuxt',
   ],
   googleFonts: {
     families: {
-      Merriweather: [300, 400, 500, 600]
-    }
-  }
+      Merriweather: [300, 400, 500, 600],
+    },
+  },
 })
