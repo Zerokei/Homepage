@@ -6,9 +6,6 @@
   "prettier.enable": false,
   "editor.formatOnSave": false,
 
-  // Disable warning inside the <style> when using @apply
-  "css.lint.unknownAtRules": "ignore",
-
   // Auto fix
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
