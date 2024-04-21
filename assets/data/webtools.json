@@ -57,7 +57,7 @@
     "name": "LDRS",
     "link": "https://uiball.com/ldrs/",
     "icon": "i-material-symbols-extension-outline",
-    "description": ": Free, open-source loaders and spinners for your next project.",
+    "description": "Free, open-source loaders and spinners for your next project.",
     "tags": ["lib", "frontend"]
   },
   {
@@ -70,7 +70,7 @@
     "name": "State of JS",
     "link": "https://stateofjs.com/en-US",
     "icon": "i-material-symbols-docs",
-    "description": ": Including JS, CSS, HTML, GraphQL, and React.",
+    "description": "Including JS, CSS, HTML, GraphQL, and React.",
     "tags": ["doc", "frontend"]
   },
   {

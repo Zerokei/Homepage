@@ -34,6 +34,10 @@
   font-family: 'JetBrainsMono', 'LXGWBright';
 }
 
+.font-normal {
+  font-family: 'Verdana';
+}
+
 .link-icon {
   @apply text-lg;
 }
