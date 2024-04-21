@@ -1,4 +1,9 @@
 {
+  // Theme
+  "workbench.colorTheme": "Vitesse Dark", // 主题
+  "workbench.preferredDarkColorTheme": "Vitesse Dark", // 暗色主题
+  "workbench.preferredLightColorTheme": "Vitesse Light", // 浅色主题
+
   // Enable the ESlint flat config support
   "eslint.experimental.useFlatConfig": true,
 

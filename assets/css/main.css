@@ -44,15 +44,17 @@
 
 .block-title {
   font-family: 'Merriweather';
-  @apply flex flex-row justify-between items-end;
-  @apply text-primary text-4xl font-semibold;
+  @apply before:content-['#'];
+  @apply hover:underline;
+  @apply flex-row justify-between items-end;
+  @apply text-4xl font-semibold;
   @apply mb-10;
 }
 
 .block-subtitle {
   font-family: 'Merriweather';
   @apply flex flex-row justify-between items-end;
-  @apply text-primary text-2xl font-semibold;
+  @apply text-2xl font-semibold;
   @apply mb-3 mt-5;
 }
 
@@ -76,6 +78,7 @@
 
 .block-content {
   @apply flex flex-col self-center w-10/12;
+  @apply text-primary;
 
   @media (min-width: 768px) {
     width: 48rem;

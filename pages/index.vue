@@ -16,7 +16,6 @@
               </div>
             </div>
           </div>
-          <!-- TODO 设置第二的区块全部为 secondary / 第三个区块全部为 third -->
           <div class="block-body">
             <div class="mb-4 tracking-wide">
               Hello, I'm Chritch, a senior at Zhejiang University. I identify as a Christian and am currently exploring
@@ -52,15 +51,18 @@
     <div id="projects" class="bg-secondary py-14">
       <div class="block-wrap">
         <div class=" block-content">
-          <div class="text-secondary block-title">
-            Projects
-            <div class="opacity-90 text-xs font-normal flex flex-row space-x-2">
+          <div class="flex">
+            <div class="block-title">
+              Projects
+            </div>
+            <div class="flex-grow" />
+            <div class="opacity-90 text-sm flex flex-row space-x-2 content-end">
               <Icontext text="Active" icon="i-mdi-progress-wrench" />
               <div> / </div>
               <Icontext text="Archived" icon="i-material-symbols-archive-outline-sharp" />
             </div>
           </div>
-          <div class="text-secondary block-body">
+          <div class="block-body">
             <div class="block-body-list">
               <ProjectItem
                 name="Notebook" link="https://obsidian.zerokei.top"

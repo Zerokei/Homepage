@@ -9,6 +9,7 @@ const props = defineProps({
 </script>
 
 <template>
+  <div />
   <div>
     <!-- <Icon name="ph:dot-fill" class="link-icon" /> -->
     <Icon v-if="active" name="i-mdi-progress-wrench" class="indicator" />

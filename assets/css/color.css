@@ -13,10 +13,10 @@
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --color-text-primary: 88 110 117;
+      --color-text-primary: 210 210 210;
       --color-text-secondary: 101 123 131;
-      --color-bg-primary: 0 43 54;
-      --color-bg-secondary: 7 54 66;
+      --color-bg-primary: 22 24 25;
+      --color-bg-secondary: 35 39 46;
       --color-foreground: 238 232 213;
       --color-separator: 131 148 150;
     }

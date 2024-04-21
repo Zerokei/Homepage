@@ -27,8 +27,8 @@ const toolArray: { [key: string]: Elements } = {
 </script>
 
 <template>
-  <span :style="{ 'background-color': toolArray[toolName].color }" class="flex-inline flex-row px-2 rounded-md text-xs mr-1 py-0.5">
-    <Icon :name="toolArray[toolName].icon" class="my-1 mr-1 text-white" />
+  <span :style="{ 'background-color': toolArray[toolName].color }" class="flex-inline flex-row px-2 rounded-md text-xs mr-1 py-0.5 text-white">
+    <Icon :name="toolArray[toolName].icon" class="mb-1.5 mt-1 mr-1" color="white" />
     <span
       :style="{
         'color': '#FFFFFF',
