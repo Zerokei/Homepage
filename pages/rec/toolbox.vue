@@ -39,9 +39,9 @@ function changeFocus(label: string) {
   buttonData.forEach((button) => {
     // 判断是否存在 label
     if (button.label === label)
-      buttons[button.ref]?.value?.classList.add('focus-button')
+      (buttons[button.ref]?.value as Element)?.classList?.add('focus-button')
     else if (button.label === selectedButton.value)
-      buttons[button.ref]?.value?.classList.remove('focus-button')
+      (buttons[button.ref]?.value as Element)?.classList?.remove('focus-button')
   })
   selectedButton.value = label
 }
