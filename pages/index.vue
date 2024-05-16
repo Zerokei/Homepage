@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <div id="main" class="bg-primary h-screen">
+    <div id="main" class="bg-background h-screen">
       <div class="block-wrap">
         <div class="block-content">
           <div class="flex flex-row mb-5">
@@ -8,10 +8,10 @@
               <img src="~/assets/img/zerokei-logo.png" class="shadow-lg rounded-full">
             </div>
             <div class="flex flex-col font-mixed justify-between">
-              <div class="pt-2 text-xl text-primary font-normal">
+              <div class="pt-2 text-xl text-foreground font-normal">
                 Zerokei
               </div>
-              <div class="pb-1 md:text-3xl text-2xl text-primary font-medium">
+              <div class="pb-1 md:text-3xl text-2xl text-foreground font-medium">
                 Chritch/克瑞奇
               </div>
             </div>
@@ -48,7 +48,7 @@
         </div>
       </div>
     </div>
-    <div id="projects" class="bg-secondary py-14">
+    <div id="projects" class="bg-muted py-14">
       <div class="block-wrap">
         <div class=" block-content">
           <div class="flex">
@@ -104,7 +104,7 @@
         </div>
       </div>
     </div>
-    <div id="recommandation" class="bg-primary py-14">
+    <div id="recommandation" class="bg-background py-14">
       <div class="block-wrap">
         <div class="block-content">
           <div class="block-title">
@@ -112,6 +112,10 @@
           </div>
           <div class="block-body">
             <div class="block-body-list">
+              <div class="block-body-item">
+                <Icon name="ph:dot-fill" class="link-icon" />
+                <Iconlink link="/rec/toolbox" text="My ToolBox" icon="i-ph-toolbox-light" />
+              </div>
               <div class="block-body-item">
                 <Icon name="ph:dot-fill" class="link-icon" />
                 <Iconlink link="https://www.douban.com/doulist/157494227/" text="TOP10 Movies & Teleplays" icon="i-uil-heart" />
@@ -122,7 +126,7 @@
               </div>
               <div class="block-body-item">
                 <Icon name="ph:dot-fill" class="link-icon" />
-                <Iconlink link="/rec/toolbox" text="My ToolBox" icon="i-ph-toolbox-light" />
+                <Iconlink link="/rec/apps" text="Recommened Apps" icon="i-material-symbols-app-badging-outline" />
               </div>
               <!-- TODO RSS Resource -->
             </div>

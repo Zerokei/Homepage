@@ -42,7 +42,7 @@
     "tags": ["database", "research"]
   },
   {
-    "name": "grammarly",
+    "name": "Grammarly",
     "link": "https://www.grammarly.com/",
     "icon": "i-simple-icons-grammarly",
     "tags": ["SaaS", "research"]
@@ -61,7 +61,7 @@
     "tags": ["lib", "frontend"]
   },
   {
-    "name": "Blockchain dark forest selfguard handbook",
+    "name": "区块链黑暗森林自救手册",
     "link": "https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook",
     "icon": "i-material-symbols-docs",
     "tags": ["doc", "blockchain"]
@@ -131,18 +131,28 @@
     "name": "JavaScript Rising Stars",
     "link": "https://risingstars.js.org/",
     "icon": "i-material-symbols-docs",
+    "description": "近年最流行的前端项目",
     "tags": ["doc", "frontend"]
   },
   {
     "name": "Freeconvert",
     "link": "https://www.freeconvert.com/",
     "icon": "i-codicon-tools",
-    "tags": ["SaaS"]
+    "description": "在线文件格式转换器",
+    "tags": ["SaaS", "pinned"]
   },
   {
     "name": "Develop Roadmap",
     "link": "https://roadmap.sh/",
     "icon": "i-material-symbols-docs",
+    "description": "编程技能学习路线",
     "tags": ["doc"]
+  },
+  {
+    "name": "Youtube Downloader",
+    "link": "https://ssyoutube.com/en173vB/youtube-video-downloader",
+    "icon": "i-simple-icons-youtube",
+    "description": "Youtube 视频下载工具",
+    "tags": ["SaaS", "pinned"]
   }
 ]

@@ -38,5 +38,9 @@
   {
     "name": "research",
     "color": "#f3aa0f"
+  },
+  {
+    "name": "pinned",
+    "color": "#6fa8b5"
   }
 ]

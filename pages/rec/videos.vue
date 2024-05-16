@@ -38,7 +38,7 @@ const items = [
   <div class="block-body">
     <div v-for="item in items" :key="item.title" class="block-body-item">
       <Icon name="ph:dot-fill" class="link-icon" />
-      <div class="text-primary font-mixed">
+      <div class="text-foreground font-mixed">
         {{ item.title }}
       </div>
       <Iconlink :link="item.link" :text="item.author" :icon="item.icon" />

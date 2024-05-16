@@ -34,7 +34,7 @@ function removeTagFromList(tag: string) {
 
 <template>
   <div class="mb-2 space-x-1.5">
-    <button class="outline-dotted outline-offset-2 outline-primary rounded-sm text-sm px-3 mr-3 mb-3 font-mixed bg-secondary text-primary hover:outline" @click="clearTagsList">
+    <button class="outline-dotted outline-offset-2 outline-primary rounded-sm text-sm px-3 mr-3 mb-3 font-mixed bg-card text-foreground hover:outline" @click="clearTagsList">
       Clear
     </button>
     <WebtoolTag v-for="tag in selectedTagsList" :id="tag" :key="tag" :on-click="() => removeTagFromList(tag)" />
@@ -46,9 +46,9 @@ function removeTagFromList(tag: string) {
       v-motion-fade-visible
       class="flex flex-nowrap space-x-1.5 items-center overflow-x-scroll"
     >
-      <span class="font-mixed text-sm outline-primary/50 outline bg-secondary text-primary rounded-lg text-center min-w-7 mx-2"> {{ index + 1 }} </span>
-      <Iconlink :link="item.link" :text="item.name" :icon="item.icon" class="text-primary hover:no-underline" />
-      <div class="whitespace-nowrap text-primary/70">
+      <span class="font-mixed text-sm outline-primary/50 outline bg-card text-foreground rounded-lg text-center min-w-7 mx-2"> {{ index + 1 }} </span>
+      <Iconlink :link="item.link" :text="item.name" :icon="item.icon" class="text-foreground hover:no-underline" />
+      <div class="whitespace-nowrap text-foreground/70">
         {{ item.description }}
       </div>
       <WebtoolTag
