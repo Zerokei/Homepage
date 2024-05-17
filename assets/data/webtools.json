@@ -154,5 +154,12 @@
     "icon": "i-simple-icons-youtube",
     "description": "Youtube 视频下载工具",
     "tags": ["SaaS", "pinned"]
+  },
+  {
+    "name": "Blockchain Security Incidents",
+    "link": "https://app.blocksec.com/explorer/security-incidents",
+    "icon": "i-material-symbols-bug-report-outline",
+    "description": "BlockSec 安全事件数据库",
+    "tags": ["database", "blockchain"]
   }
 ]

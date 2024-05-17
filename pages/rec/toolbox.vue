@@ -50,6 +50,7 @@ function changeFocus(label: string) {
 <template>
   <div class="grid lg:grid-cols-5 h-screen max-h-screen">
     <!-- NOTE 侧边栏 -->
+    <!-- TODO 侧边栏添加返回按钮 -->
     <div class="hidden lg:block">
       <div class="flex flex-col py-4 px-4 space-y-4">
         <h2 class="mb-2 text-2xl font-semibold tracking-tight">
