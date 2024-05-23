@@ -28,6 +28,12 @@ const items = [
     author: 'Agape Reformed Evangelical Church',
     icon: 'i-simple-icons-youtube',
   },
+  {
+    title: '《唯独圣经》',
+    link: 'https://reformedsg.org/2023%e5%b9%b4-%e7%a5%9e%e5%ad%a6%e8%af%be%e7%a8%8b/',
+    author: 'Agape Reformed Evangelical Church',
+    icon: 'i-simple-icons-youtube',
+  },
 ]
 </script>
 
