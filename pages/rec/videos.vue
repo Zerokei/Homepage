@@ -33,6 +33,14 @@ const items = [
     link: 'https://reformedsg.org/2023%e5%b9%b4-%e7%a5%9e%e5%ad%a6%e8%af%be%e7%a8%8b/',
     author: 'Agape Reformed Evangelical Church',
     icon: 'i-simple-icons-youtube',
+    date: '24-05-23',
+  },
+  {
+    title: '《[GPT 与神学] 当我们谈论知识时，我们在谈论什么？》',
+    link: 'https://www.bilibili.com/video/BV1Wh41137oS/?vd_source=e0afe58994f51ab20371783da410a683',
+    author: '情节严重社',
+    icon: 'i-simple-icons-bilibili',
+    date: '24-05-25',
   },
 ]
 </script>
