@@ -161,5 +161,12 @@
     "icon": "i-material-symbols-bug-report-outline",
     "description": "BlockSec 安全事件数据库",
     "tags": ["database", "blockchain"]
+  },
+  {
+    "name": "RemoveBG",
+    "link": "https://www.remove.bg/zh/upload",
+    "icon": "i-material-symbols-scan-delete-outline-sharp",
+    "description": "清除图片背景",
+    "tags": ["SaaS", "drawing", "pinned"]
   }
 ]
