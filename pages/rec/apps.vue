@@ -78,11 +78,11 @@ const macItems = [
             <a
               v-for="item in macItems"
               :key="item.name"
-              class="bg-card rounded-lg px-1 py-1 outline outline-primary/60"
+              class="bg-card rounded-lg px-1 py-2 outline outline-primary/60"
               :href="item.link"
               :title="item.name"
             >
-              <Icon :name="item.icon" class="text-lg" :color="item.color" />
+              <Icon :name="item.icon" class="text-3xl" :color="item.color" />
             </a>
           </div>
         </div>
