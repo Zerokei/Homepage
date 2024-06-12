@@ -111,29 +111,39 @@
             Recommandation
           </div>
           <div class="block-body">
-            <div class="block-body-list">
-              <div class="block-body-item">
-                <Icon name="ph:dot-fill" class="link-icon" />
-                <Iconlink link="/rec/toolbox" text="My ToolBox" icon="i-ph-toolbox-light" />
+            <div class="flex flex-auto flex-wrap justify-center space-x-5">
+              <div class="page-card" @click="navigateTo('/rec/toolbox')">
+                <Icon name="i-ph-toolbox-light" class="link-icon text-6xl" />
+                <span class="font-mixed text-xl"> ToolBox </span>
               </div>
-              <div class="block-body-item">
-                <Icon name="ph:dot-fill" class="link-icon" />
-                <Iconlink link="https://www.douban.com/doulist/157494227/" text="TOP10 Movies & Teleplays" icon="i-uil-heart" />
+              <div class="page-card" @click="navigateTo('https://www.douban.com/doulist/157494227/', { external: true })">
+                <Icon name="i-material-symbols-movie-filter-sharp" class="link-icon text-6xl" />
+                <span class="font-mixed text-xl"> Films </span>
               </div>
-              <div class="block-body-item">
-                <Icon name="ph:dot-fill" class="link-icon" />
-                <Iconlink link="/rec/videos" text="Recommended Videos" icon="i-ic-baseline-slow-motion-video" />
+              <div class="page-card" @click="navigateTo('/rec/videos')">
+                <Icon name="i-ic-baseline-slow-motion-video" class="link-icon text-6xl" />
+                <span class="font-mixed text-xl"> Videos </span>
               </div>
-              <div class="block-body-item">
-                <Icon name="ph:dot-fill" class="link-icon" />
-                <Iconlink link="/rec/apps" text="Recommened Apps" icon="i-material-symbols-app-badging-outline" />
+              <div class="page-card" @click="navigateTo('/rec/apps')">
+                <Icon name="i-material-symbols-app-badging-outline" class="link-icon text-6xl" />
+                <span class="font-mixed text-xl"> Apps </span>
               </div>
-              <!-- TODO RSS Resource -->
             </div>
           </div>
+          <!-- TODO RSS Resource -->
         </div>
       </div>
     </div>
+    <div>
     <!-- TODO Skills -->
+    </div>
   </div>
 </template>
+
+<style scoped>
+.page-card {
+  @apply flex flex-col items-center;
+  @apply h-24 w-40;
+  @apply outline outline-offset-2 outline-2 hover:outline-ring hover:bg-ring;
+}
+</style>
