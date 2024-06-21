@@ -51,14 +51,14 @@
     "name": "Triangle Patterns Generator",
     "link": "https://sinqi.tools/zh/triangle",
     "icon": "i-fluent-draw-image-20-regular",
-    "tags": ["lib", "drawing"]
+    "tags": ["drawing"]
   },
   {
     "name": "LDRS",
     "link": "https://uiball.com/ldrs/",
     "icon": "i-material-symbols-extension-outline",
     "description": "Free, open-source loaders and spinners for your next project.",
-    "tags": ["lib", "frontend"]
+    "tags": ["develop", "frontend"]
   },
   {
     "name": "区块链黑暗森林自救手册",
@@ -83,19 +83,19 @@
     "name": "Icones",
     "link": "https://icones.js.org/",
     "icon": "i-material-symbols-extension-outline",
-    "tags": ["lib", "frontend"]
+    "tags": ["develop", "frontend"]
   },
   {
     "name": "Nuxt3",
     "link": "https://nuxt.com/",
     "icon": "i-simple-icons-nuxtdotjs",
-    "tags": ["lib", "frontend"]
+    "tags": ["develop", "frontend"]
   },
   {
     "name": "TailwindCSS",
     "link": "https://tailwindcss.com/",
     "icon": "i-material-symbols-extension-outline",
-    "tags": ["lib", "frontend"]
+    "tags": ["develop", "frontend"]
   },
   {
     "name": "Kindle2Flomo",
@@ -125,7 +125,7 @@
     "name": "@vueuse/motion",
     "link": "https://motion.vueuse.org/",
     "icon": "i-material-symbols-extension-outline",
-    "tags": ["lib", "frontend"]
+    "tags": ["develop", "frontend"]
   },
   {
     "name": "JavaScript Rising Stars",
@@ -168,5 +168,32 @@
     "icon": "i-material-symbols-scan-delete-outline-sharp",
     "description": "清除图片背景",
     "tags": ["SaaS", "drawing", "pinned"]
+  },
+  {
+    "name": "果核音乐",
+    "link": "https://ghyinyue.com",
+    "icon": "i-material-symbols-music-note-rounded",
+    "description": "在线音乐免费下载",
+    "tags": ["SaaS", "database", "pinned"]
+  },
+  {
+    "name": "实验文档降压宝典",
+    "link": "https://hypotensor.tonycrane.cc/",
+    "icon": "i-material-symbols-docs",
+    "description": "如何规范使用 Markdown 书写实验文档",
+    "tags": ["doc"]
+  },
+  {
+    "name": "Routledge",
+    "link": "https://www.rep.routledge.com/",
+    "icon": "i-ph-graduation-cap",
+    "description": "哲学百科",
+    "tags": ["wiki"]
+  },
+  {
+    "name": "Regex101",
+    "link": "https://regex101.com/",
+    "icon": "i-codicon-tools",
+    "tags": ["SaaS", "develop"]
   }
 ]
