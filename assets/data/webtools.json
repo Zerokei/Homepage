@@ -188,7 +188,7 @@
     "link": "https://www.rep.routledge.com/",
     "icon": "i-ph-graduation-cap",
     "description": "哲学百科",
-    "tags": ["wiki"]
+    "tags": ["wiki", "doc"]
   },
   {
     "name": "Regex101",
