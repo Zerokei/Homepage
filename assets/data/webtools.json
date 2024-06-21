@@ -58,7 +58,7 @@
     "link": "https://uiball.com/ldrs/",
     "icon": "i-material-symbols-extension-outline",
     "description": "Free, open-source loaders and spinners for your next project.",
-    "tags": ["develop", "frontend"]
+    "tags": ["engineering", "frontend"]
   },
   {
     "name": "区块链黑暗森林自救手册",
@@ -83,19 +83,19 @@
     "name": "Icones",
     "link": "https://icones.js.org/",
     "icon": "i-material-symbols-extension-outline",
-    "tags": ["develop", "frontend"]
+    "tags": ["engineering", "frontend"]
   },
   {
     "name": "Nuxt3",
     "link": "https://nuxt.com/",
     "icon": "i-simple-icons-nuxtdotjs",
-    "tags": ["develop", "frontend"]
+    "tags": ["engineering", "frontend"]
   },
   {
     "name": "TailwindCSS",
     "link": "https://tailwindcss.com/",
     "icon": "i-material-symbols-extension-outline",
-    "tags": ["develop", "frontend"]
+    "tags": ["engineering", "frontend"]
   },
   {
     "name": "Kindle2Flomo",
@@ -125,7 +125,7 @@
     "name": "@vueuse/motion",
     "link": "https://motion.vueuse.org/",
     "icon": "i-material-symbols-extension-outline",
-    "tags": ["develop", "frontend"]
+    "tags": ["engineering", "frontend"]
   },
   {
     "name": "JavaScript Rising Stars",
@@ -142,7 +142,7 @@
     "tags": ["SaaS", "pinned"]
   },
   {
-    "name": "Develop Roadmap",
+    "name": "Roadmaps",
     "link": "https://roadmap.sh/",
     "icon": "i-material-symbols-docs",
     "description": "编程技能学习路线",
@@ -194,6 +194,6 @@
     "name": "Regex101",
     "link": "https://regex101.com/",
     "icon": "i-codicon-tools",
-    "tags": ["SaaS", "develop"]
+    "tags": ["SaaS", "engineering"]
   }
 ]
