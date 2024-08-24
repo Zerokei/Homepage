@@ -42,6 +42,13 @@ const items = [
     icon: 'i-simple-icons-bilibili',
     date: '24-05-25',
   },
+  {
+    title: '《为什么赌博的人，都是人不人鬼不鬼的活着，对其他一切都不感兴趣》',
+    link: 'https://www.bilibili.com/video/BV1Qf421q7Q1/?vd_source=e0afe58994f51ab20371783da410a683',
+    author: '摩的司机徐师傅',
+    icon: 'i-simple-icons-bilibili',
+    date: '24-08-24',
+  },
 ]
 </script>
 
