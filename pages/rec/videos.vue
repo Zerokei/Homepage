@@ -49,6 +49,13 @@ const items = [
     icon: 'i-simple-icons-bilibili',
     date: '24-08-24',
   },
+  {
+    title: '《颠覆绝大部分人的认知？欧洲历史上真实的女巫与猎巫究竟是怎样的？》',
+    link: 'https://www.bilibili.com/video/BV1CZ4y117KR/',
+    author: '卢格杜努姆的奥古斯丁',
+    icon: 'i-simple-icons-bilibili',
+    date: '24-08-25',
+  },
 ]
 </script>
 
