@@ -56,6 +56,13 @@ const items = [
     icon: 'i-simple-icons-bilibili',
     date: '24-08-25',
   },
+  {
+    title: '《完蛋了！性慾找上門》',
+    link: 'https://www.youtube.com/watch?v=j8Ypnc8jC8c',
+    author: 'Pastor Peter',
+    icon: 'i-simple-icons-youtube',
+    date: '24-08-31',
+  },
 ]
 </script>
 
