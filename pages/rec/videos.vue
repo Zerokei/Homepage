@@ -63,6 +63,13 @@ const items = [
     icon: 'i-simple-icons-youtube',
     date: '24-08-31',
   },
+  {
+    title: '《【以日为鉴】我们也会有失去的一代吗？回顾日本大学生失业潮》',
+    link: 'https://www.bilibili.com/video/BV1iS421d7nF',
+    author: '分析师boden',
+    icon: 'i-simple-icons-bilibili',
+    date: '24-09-05',
+  },
 ]
 </script>
 
