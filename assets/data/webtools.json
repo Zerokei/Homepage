@@ -195,5 +195,11 @@
     "link": "https://regex101.com/",
     "icon": "i-codicon-tools",
     "tags": ["SaaS", "engineering"]
+  },
+  {
+    "name": "PeopleGraph",
+    "link": "https://peoplegraphmaker.com/",
+    "icon": "i-fluent-draw-image-20-regular",
+    "tags": ["drawing"]
   }
 ]
