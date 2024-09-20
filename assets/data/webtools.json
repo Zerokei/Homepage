@@ -201,5 +201,11 @@
     "link": "https://peoplegraphmaker.com/",
     "icon": "i-fluent-draw-image-20-regular",
     "tags": ["drawing"]
+  },
+  {
+    "name": "antiOCR",
+    "link": "https://huggingface.co/spaces/breezedeus/antiOCR",
+    "icon": "i-codicon-tools",
+    "tags": ["SaaS", "drawing", "pinned"]
   }
 ]
