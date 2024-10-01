@@ -5,6 +5,7 @@ const selectedButton = useState('selected-button')
 const buttonData = [
   { ref: 'defaudltButton', label: 'Pinned', icon: 'i-tabler-pinned', target: ['pinned'] },
   { ref: 'serviceButton', label: 'Service', icon: 'i-material-symbols-linked-services-outline', target: ['SaaS', 'PaaS'] },
+  { ref: 'workButton', label: 'Work', icon: 'i-material-symbols-work-outline', target: ['works'] },
   { ref: 'documentButton', label: 'Document', icon: 'i-solar-document-text-linear', target: ['doc'] },
   { ref: 'databaseButton', label: 'Database', icon: 'i-tabler-database', target: ['database'] },
   { ref: 'researchButton', label: 'Research', icon: 'i-ph-graduation-cap', target: ['research'] },

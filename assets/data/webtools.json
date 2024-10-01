@@ -217,5 +217,12 @@
     "icon": "i-codicon-tools",
     "description": "通过选择题筛选合适的开源许可证",
     "tags": ["engineering"]
+  },
+  {
+    "name": "EasyNomad",
+    "link": "https://easynomad.cn/",
+    "icon": "i-material-symbols-database-outline",
+    "description": "远程工作招聘聚合器",
+    "tags": ["database", "work"]
   }
 ]
