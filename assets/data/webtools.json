@@ -167,7 +167,7 @@
     "link": "https://www.remove.bg/zh/upload",
     "icon": "i-material-symbols-scan-delete-outline-sharp",
     "description": "清除图片背景",
-    "tags": ["SaaS", "drawing", "pinned"]
+    "tags": ["drawing", "pinned"]
   },
   {
     "name": "果核音乐",
@@ -194,18 +194,28 @@
     "name": "Regex101",
     "link": "https://regex101.com/",
     "icon": "i-codicon-tools",
-    "tags": ["SaaS", "engineering"]
+    "description": "正则表达式测试工具",
+    "tags": ["engineering"]
   },
   {
     "name": "PeopleGraph",
     "link": "https://peoplegraphmaker.com/",
     "icon": "i-fluent-draw-image-20-regular",
+    "description": "人物比例图生成器",
     "tags": ["drawing"]
   },
   {
     "name": "antiOCR",
     "link": "https://huggingface.co/spaces/breezedeus/antiOCR",
     "icon": "i-codicon-tools",
+    "description": "反 OCR 工具",
     "tags": ["SaaS", "drawing", "pinned"]
+  },
+  {
+    "name": "开源许可证选择器",
+    "link": "https://open-source-license-chooser.toolsnav.top/zh/",
+    "icon": "i-codicon-tools",
+    "description": "通过选择题筛选合适的开源许可证",
+    "tags": ["engineering"]
   }
 ]
