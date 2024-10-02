@@ -224,5 +224,19 @@
     "icon": "i-material-symbols-database-outline",
     "description": "远程工作招聘聚合器",
     "tags": ["database", "work"]
+  },
+  {
+    "name": "Imgbb",
+    "link": "https://zh-cn.imgbb.com/",
+    "icon": "i-codicon-tools",
+    "description": "免费图床",
+    "tags": ["SaaS", "pinned"]
+  },
+  {
+    "name": "ShortURL",
+    "link": "https://www.shorturl.at/shortener.php",
+    "icon": "i-codicon-tools",
+    "description": "短链接生成器",
+    "tags": ["SaaS", "pinned"]
   }
 ]
